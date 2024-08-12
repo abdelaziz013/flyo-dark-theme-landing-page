@@ -1,0 +1,12 @@
+{
+  "name": "flyo-dark-theme",
+  "version": "1.0.0",
+  "description": "front end mentor challenge",
+  "main": "index.js",
+  "scripts": {
+    "sass-dev": "sass --no-source-map  --watch --update --style=expanded sass/main.scss:css/style.css",
+    "sass-prod": "sass --no-source-map --style=compressed sass/main.scss:css/style.css"
+  },
+  "author": "AbdelAziz",
+  "license": "ISC"
+}
