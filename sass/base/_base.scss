@@ -2,9 +2,9 @@ body{
     font-family: $ff-primary;
     box-sizing: border-box;
     font-size: $default-font-size;
-    background-color: $color-dark-blue-2;
+    background-color: $color-dark-blue-1;
     color:$color-white;
-    padding-inline: $padding-inline;
+    // padding-inline: $padding-inline;
     background-image: url("../assets/images/bg-curvy-desktop.svg");
     background-repeat: no-repeat;
     background-position: center 550px;
@@ -36,7 +36,6 @@ h2 {
 
 p {
   line-height: 1.5;
-  margin-bottom: 2.25rem;
   color:$color-white;
 }
 
