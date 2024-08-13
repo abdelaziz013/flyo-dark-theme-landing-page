@@ -1,0 +1,39 @@
+.header {
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-block: 2rem;
+    }
+
+    &__links {
+        display: flex;
+
+        >a {
+            opacity: 0.6;
+            transform: opacity 300ms ease-in-out;
+
+            &:not(:last-child) {
+                margin-right: 1rem;
+                cursor: pointer;
+            }
+
+            &:after {
+                content: "";
+                display: block;
+                height: 1px;
+                background-color: $color-white;
+                opacity: 0;
+                transform: opacity 300ms ease-in-out;
+            }
+
+            &:hover {
+                opacity: 1;
+
+                &::after {
+                    opacity: 1;
+                }
+            }
+        }
+    }
+}
