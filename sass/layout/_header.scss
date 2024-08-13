@@ -1,9 +1,11 @@
 .header {
+
     nav {
         display: flex;
         justify-content: space-between;
         align-items: center;
         padding-block: 2rem;
+        font-family: $ff-secondary;
     }
 
     &__links {
