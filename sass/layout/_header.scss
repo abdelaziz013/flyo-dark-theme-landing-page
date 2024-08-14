@@ -1,5 +1,6 @@
 .header {
     padding-inline: $padding-inline;
+    background: $color-dark-blue-1;
     @include breakpoint-down(phone){
         padding-inline: $padding-inline-mobile;
     }
