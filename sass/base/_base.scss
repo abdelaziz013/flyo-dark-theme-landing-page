@@ -8,6 +8,16 @@ body{
     background-image: url("../assets/images/bg-curvy-desktop.svg");
     background-repeat: no-repeat;
     background-position: center 550px;
+    background-size:100%;
+    // width: 100vw;
+    height: 100vh;
+
+    @include breakpoint-down(phone){
+      
+      background-image:url("../assets/images/bg-curvy-mobile.svg");
+      background-position: -300px 200px;
+      background-size: cover;
+    }
 
 
 }
