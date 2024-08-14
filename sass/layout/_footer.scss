@@ -63,10 +63,21 @@
         display: grid;
         grid-template-columns: repeat(2,1fr);
         gap:1rem;
+
         @include breakpoint-down(phone){
             grid-template-columns:1fr;
+            row-gap: 2rem;
+        }
+
+        & > div {
+            display: grid;
+            grid-template-columns: 1fr;
+            grid-template-rows: repeat(4,1fr);
+            gap:1rem;
 
         }
+
+
     }
 
     &__icons{
